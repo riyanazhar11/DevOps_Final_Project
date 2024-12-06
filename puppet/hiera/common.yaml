@@ -1,0 +1,3 @@
+# Common configuration for all environments
+nodejs_version: '14.17.0'
+npm_version: '6.14.13'

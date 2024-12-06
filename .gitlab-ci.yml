@@ -1,0 +1,15 @@
+stages:
+  - test
+  - lint
+
+rspec:
+  stage: test
+  script:
+    - sudo gem install rspec-puppet
+    - sudo rspec puppet/modules/apache/spec/classes/apache_spec.rb
+    - sudo rspec puppet/modules/concat/spec/classes/concat_spec.rb
+
+puppet-lint:
+  stage: lint
+  script:
+    - sudo puppet-lint --with-filename puppet/**/*.pp
