@@ -1,14 +1,11 @@
 pipeline{
     agent any
-
     environment {
         AWS_ACCESS_KEY_ID     = credentials('aws_access_key_id')
         AWS_SECRET_ACCESS_KEY = credentials('aws_secret_access_key')
         region                = "us-east-2"
     }
     stages{
-
-
         stage('checkout the repo'){
             steps{
                 git branch: 'main', credentialsId: 'github_cred', url: 'https://github.com/AbdelrhmanAli123/advanced-devops-task.git'
@@ -75,3 +72,8 @@ pipeline{
         }
     }
 }
+
+
+
+
+
