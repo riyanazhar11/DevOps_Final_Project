@@ -1,0 +1,19 @@
+<!--
+Its purpose is to show some fields of user data information
+-->
+<form data-form data-container>
+  <div class="useraddressbox" data-userdata></div>
+  <!-- We need a wrapper for the butedit with inline-block and another for positioning -->
+  <div>
+    <div style="position:relative; display: inline-block;" data-fieldcharerror>
+      <div data-butedit class="btmiddleright"></div>
+      <input type="hidden" name="fieldCharError" disabled data-value data-hidden>
+    </div>
+  </div>
+  <div>
+    <div style="position:relative; display: inline-block;" data-fieldemailerror>
+      <div data-butedit class="btmiddleright"></div>
+      <input type="hidden" name="emailCharError" disabled data-value data-hidden>
+    </div>
+  </div>
+</form>

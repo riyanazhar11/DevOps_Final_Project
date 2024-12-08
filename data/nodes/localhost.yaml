@@ -1,0 +1,12 @@
+project_owner: riyanazhar10
+project_group: riyanazhar10
+project_mode: '0755'
+file_mode: '0644'
+readme_content: |
+  # Your Online Shop
+  This is the main README file for the Your Online Shop project.
+  It provides an overview of the project and instructions for setup and usage.
+privacy_content: |
+  # Privacy Policy
+  This is the privacy policy for the Your Online Shop project.
+  It outlines how user data is collected, used, and protected.
