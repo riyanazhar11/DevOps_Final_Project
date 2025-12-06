@@ -1,4 +1,0 @@
-# Development environment-specific configuration
-include common
-nodejs_version: '14.17.0'
-npm_version: '6.14.13'
